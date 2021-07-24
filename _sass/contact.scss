@@ -1,0 +1,31 @@
+.contact {
+	background-color: var(--bg-2);
+	border-bottom:1px solid var(--borderColor);
+	overflow:auto;
+}
+
+.card-contact {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--bg-2);
+    border-radius: .375rem;
+    /*border: .5px solid var(--fg-0);*/
+    padding: 1.5em;
+    font-size: 1.2em;
+    color: var(--fg-1);
+    box-shadow: rgba(0, 0, 0, 0.15) 2.95px 2.95px 2.6px;
+    max-width: 600px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-container-contact {
+    width: auto;
+    align-items: center;
+	margin: 0 auto;
+}
+
+.input-field {
+    font-size: 500;
+}

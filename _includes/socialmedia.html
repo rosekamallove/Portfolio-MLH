@@ -1,0 +1,21 @@
+<h2>Social Media</h2>
+<div class="card-container">
+    {% for item in site.data.socialmedia %}
+    {% if item.link %}
+    <a href="{{ item.link }}"/>
+     {% else %}
+    <a>
+    {% endif %}
+    <div class="card">
+      <div class="icon">
+        <img src="./assets/img/socialmedia/{{ item.logo }}">
+      </div>
+      <div class="info">
+        <p class="title">{{ item.title }}</p>
+        <p class="username">{{ item.username }}</p>
+      </div>
+    </div>
+    </a>
+    {% endfor %}
+</div>
+  

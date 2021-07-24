@@ -1,0 +1,20 @@
+<header class="nav-bar">
+    <div class="nav-content">
+        <a href="{{ '/' | relative_url }}" >
+            <div class="nav-logo">
+                <img src="./assets/img/logo.svg" />
+            </div>
+        </a>
+        <div class="container">
+            <label class="system-theme">
+                System Theme
+                <input type="checkbox" name="system-theme" id="system-theme">
+            </label>
+            <label id="switch" class="switch">
+                <input type="checkbox" onchange="toggleTheme()" id="slider">
+                <span class="slider round"></span>
+            </label>
+            <!-- <button id="switch" onclick="toggleTheme()">Switch</button> -->
+        </div>
+    </div>
+</header>

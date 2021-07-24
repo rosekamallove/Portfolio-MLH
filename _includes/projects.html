@@ -1,0 +1,61 @@
+<h2 class="darkHeading">Projects</h2>
+<div class="card-container">
+  
+  {% for item in site.data.projects %}
+  {% if item.page-name %}
+  <a id="p1" href="/projects/{{ item.page-name }}"/>
+
+    {% else %}
+    <a>
+      {% endif %}
+      <div class="card">
+        <div class="info">
+          <p class="title">{{ item.title }}</p>
+          <p class="location">{{ item.event }}</p>
+          <p class="dates">{{ item.date }}</p>
+          <p class="dates">{{ item.date }}</p>
+        </div>        
+      </div>
+    </a>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link href="http://codegena.com/assets/css/image-preview-for-link.css" rel="stylesheet">
+    <script type="text/javascript">
+      $(function () {
+        $('#p1').miniPreview({ prefetch: 'pageload' });
+        $('#p2 a').miniPreview({ prefetch: 'parenthover' });
+        $('#p3 a').miniPreview({ prefetch: 'none' });
+      });
+    </script>
+    <script src="http://codegena.com/assets/js/image-preview-for-link.js"></script>
+    {% endfor %}
+
+    <div class="card p-0">
+      <img id="stats-1">
+    </div>
+
+    <div class="card p-0">
+      <img id="stats-2">
+    </div>
+</div>
+
+<script type="text/javascript">
+
+  var observer = new MutationObserver(function (mutations) {
+    if (document.documentElement.className == 'theme-light') {
+
+      document.getElementById("stats-1").src = "{{site.data.githubstats[0].link-light}}"
+      document.getElementById("stats-2").src = "{{site.data.githubstats[1].link-light}}"
+
+    } else {
+
+      document.getElementById("stats-1").src = "{{site.data.githubstats[0].link-dark}}"
+      document.getElementById("stats-2").src = "{{site.data.githubstats[1].link-dark}}"
+    }
+  });
+
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['class']
+  });
+
+</script>
