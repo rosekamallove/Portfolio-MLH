@@ -1,3 +1,22 @@
+# Features We Added:
+
+- [x] Alan AI
+  - **Voice Commands**
+    - Download the resume
+    - Go to GitHub / LinkedIn
+    - Open Projects
+    - Book a meeting on Calendly
+    - Ask him who's family
+    - Change Theme / Toggle System Theme
+- [x] GitHub Stats
+- [x] Dark Theme
+- [x] Dark Theme Based on System Theme
+
+**Shoutout**
+@KUHOO-S
+
+
+
 **_NOTE: To intergrate AlanAI with your credentials and make it work please refer to [this](/assets/js/alanAI/alanReadme.md) readme_**
 
 # Portfolio Template
