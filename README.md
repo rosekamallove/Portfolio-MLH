@@ -2,6 +2,7 @@
 
 - [x] Alan AI
   - **Voice Commands**
+    - Ask Alan `what can I do here` 
     - Download the resume
     - Go to GitHub / LinkedIn
     - Open Projects
@@ -13,7 +14,7 @@
 - [x] Dark Theme Based on System Theme
 
 **Shoutout**
-@KUHOO-S
+[@KUHOO-S](https://gtihub.com/KUHOO-S)
 
 
 
