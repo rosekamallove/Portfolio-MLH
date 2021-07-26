@@ -18,7 +18,7 @@
 
 
 
-**_NOTE: To intergrate AlanAI with your credentials and make it work please refer to [this](/assets/js/alanAI/alanReadme.md) readme_**
+**_NOTE: To integrate AlanAI with your credentials and make it work please refer to [this](/assets/js/alanAI/alanReadme.md) readme_**
 
 # Portfolio Template
 
