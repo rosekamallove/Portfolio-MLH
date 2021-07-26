@@ -14,7 +14,7 @@
 - [x] Dark Theme Based on System Theme
 
 **Shoutout**
-[@KUHOO-S](https://gtihub.com/KUHOO-S)
+[@KUHOO-S](https://github.com/KUHOO-S)
 
 
 
